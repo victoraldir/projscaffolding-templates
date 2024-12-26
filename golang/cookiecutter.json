@@ -1,0 +1,26 @@
+{
+    "project_name": "Your Git Repository Name",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('_','-') }}",
+    "project_description": "Tell more about Project Description",
+    "ownership_team": [
+      "teamA",
+      "teamB",
+      "teamC"
+    ],
+    "squad": [
+      "squadA",
+      "squadB",
+      "squadC"
+    ],
+    "ownership_name": "",
+    "github_user": "",
+    "__prompts__": {
+      "project_name": "Type your Github Repository Project Name.",
+      "project_slug": "Auto converting name convention to be is that ok ?",
+      "project_description": "What is the primary purpose of this service.",
+      "ownership_team": "Select Projects Belong to which team.",
+      "ownership_name": "Your Name Please.",
+      "squad": "This project belongs to which Squad.",
+      "github_user": "Your GitHub username see at github.com/yourprofilename"
+    }
+  }

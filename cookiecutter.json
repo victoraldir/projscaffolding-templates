@@ -1,0 +1,6 @@
+{
+    "template": [
+        "Go hello world (./golang)",
+        "Python hello world (./python)"
+    ]
+}
